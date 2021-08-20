@@ -1,0 +1,21 @@
+.button {
+    margin-top: 40px;
+    padding: auto;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(47, 0, 255);
+    color: aliceblue;
+    font-size: large;
+    cursor: pointer;
+}
+
+.button:disabled {
+    margin-top: 40px;
+    padding: auto;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(61, 61, 65);
+    color: rgb(255, 240, 240);
+    font-size: x-large;
+    cursor: not-allowed;
+}
